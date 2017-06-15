@@ -1,0 +1,22 @@
+{
+  "name" : "Obliviate",
+  "version" : "1.0",
+  "description" : "Automatically clear cache on each page load. Ability to toggle on and off.",
+  "permissions": [
+    "browsingData",
+    "webRequest",
+    "<all_urls>"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png"
+  },
+  "background" : {
+    "scripts" : ["obliviate.js"],
+    "persistent": true
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}
