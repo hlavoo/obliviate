@@ -29,7 +29,7 @@
             });
 
             chrome.browserAction.setTitle({
-              title: 'Obliviate active'
+              title: 'Obliviate: Enabled'
             });
 
             chrome.webRequest.onBeforeRequest.addListener(obliviateCache, {
@@ -43,7 +43,7 @@
             });
 
             chrome.browserAction.setTitle({
-              title: 'Obliviate disabled'
+              title: 'Obliviate: Disabled'
             });
 
             chrome.webRequest.onBeforeRequest.removeListener(obliviateCache);
