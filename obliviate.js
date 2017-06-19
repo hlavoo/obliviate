@@ -35,6 +35,8 @@
             chrome.webRequest.onBeforeRequest.addListener(obliviateCache, {
                 urls: ["<all_urls>"]
             });
+            
+            chrome.tabs.reload();
         } else {
             chrome.browserAction.setIcon({
                 path: 'icon.png'
