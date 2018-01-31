@@ -1,8 +1,9 @@
 {
   "name" : "Obliviate",
-  "version" : "1.1",
+  "version" : "1.2",
   "description" : "Automatically clears the cache on each page load, with ability to toggle on and off.",
   "permissions": [
+    "storage",
     "browsingData",
     "webRequest",
     "<all_urls>"
@@ -18,5 +19,5 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
